@@ -20,7 +20,7 @@ module.exports = {
   },
   async fetchFile(req, res) {
     try {
-      const { filePath } = req.body;
+      const { filePath } = req.query;
       const result = await assetsService.fetchFile(filePath);
       return res.send(result);
     } catch (err) {
