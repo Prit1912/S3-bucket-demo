@@ -23,7 +23,7 @@ npm run dev
     - POST: localhost:3000/v1/assets/upload-files
     - Now add files in body -> form with any names
     - Call API and you can see files uploaded in s3 bucket
-  - ### delete files
+  - ### Delete files
     - POST: localhost:3000/v1/assets/delete-files
     - In body you can pass files paths you want to delete
       - ```
@@ -35,7 +35,7 @@ npm run dev
         }
         ```
     - Call API and you can see files deleted from S3 bucket
-  - ### fetch file
+  - ### Fetch file
     - GET: localhost:3000/v1/assets/fetch-file
     - In query params you can pass file path
       - ```
